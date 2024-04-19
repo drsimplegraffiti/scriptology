@@ -11,5 +11,5 @@ app.get("/", async (_, res) => {
 app.use("/api", userRouter);
 
 app.listen(port, () => {
-  console.log("server running on port" + port);
+  console.log("server 🚀 running on port" + port);
 });
